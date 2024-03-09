@@ -1,15 +1,10 @@
 {
 	"name": "Athletes_HTTP_LS",
 	"properties": {
-		"parameters": {
-			"URL": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "@{linkedService().URL}",
+			"url": "https://raw.githubusercontent.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
