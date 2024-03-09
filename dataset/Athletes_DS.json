@@ -1,15 +1,16 @@
 {
-	"name": "Athletes",
+	"name": "Athletes_DS",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Athletes_HTTP_LS",
+			"referenceName": "Http_LS",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation"
+				"type": "HttpServerLocation",
+				"relativeUrl": "main/data/Athletes.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
